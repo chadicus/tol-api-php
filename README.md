@@ -20,13 +20,8 @@ When contributing, access to a working mongo database for testing is needed.  Se
 tol-api-php can be installed for use in your project using [composer](http://getcomposer.org).
 
 The recommended way of using this library in your project is to add a `composer.json` file to your project.  The following contents would add tol-api-php as a dependency:
-
-```json
-{
-    "require": {
-        "dominionenterprises/tol-api": "~0.1.0"
-    }
-}
+```sh
+composer require dominionenterprises/tol-api
 ```
 
 ## Basic Usage
