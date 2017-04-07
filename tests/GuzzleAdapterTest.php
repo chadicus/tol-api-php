@@ -9,7 +9,7 @@ use DominionEnterprises\Util\Http;
  * @coversDefaultClass \DominionEnterprises\Api\GuzzleAdapter
  * @covers ::<private>
  */
-final class GuzzleAdapterTest extends \PHPUnit_Framework_TestCase
+final class GuzzleAdapterTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @test

@@ -11,7 +11,7 @@ namespace DominionEnterprises\Api;
  * @uses \DominionEnterprises\Api\Request
  * @uses \DominionEnterprises\Api\Response
  */
-final class MongoCacheTest extends \PHPUnit_Framework_TestCase
+final class MongoCacheTest extends \PHPUnit\Framework\TestCase
 {
     const MONGO_DB = 'testing';
     const MONGO_COLLECTION = 'cache';

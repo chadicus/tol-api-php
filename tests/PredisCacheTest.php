@@ -11,7 +11,7 @@ namespace DominionEnterprises\Api;
  * @uses \DominionEnterprises\Api\Response
  * @uses \DominionEnterprises\Api\PredisCache::__construct
  */
-final class PredisCacheTest extends \PHPUnit_Framework_TestCase
+final class PredisCacheTest extends \PHPUnit\Framework\TestCase
 {
     private $_client;
 

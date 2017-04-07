@@ -7,7 +7,7 @@ namespace DominionEnterprises\Api;
  *
  * @coversDefaultClass \DominionEnterprises\Api\Request
  */
-final class RequestTest extends \PHPUnit_Framework_TestCase
+final class RequestTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @test

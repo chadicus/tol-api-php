@@ -21,9 +21,9 @@ if ($phpcsViolations > 0) {
     exit(1);
 }
 
-$phpunitConfiguration = PHPUnit_Util_Configuration::getInstance(__DIR__ . '/phpunit.xml');
+$phpunitConfiguration = PHPUnit\Util\Configuration::getInstance(__DIR__ . '/phpunit.xml');
 $phpunitArguments = ['coverageHtml' => __DIR__ . '/coverage', 'configuration' => $phpunitConfiguration];
-$testRunner = new PHPUnit_TextUI_TestRunner();
+$testRunner = new PHPUnit\TextUI\TestRunner();
 $result = $testRunner->doRun($phpunitConfiguration->getTestSuiteConfiguration(), $phpunitArguments, false);
 if (!$result->wasSuccessful()) {
     exit(1);

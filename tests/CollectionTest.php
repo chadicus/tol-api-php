@@ -18,7 +18,7 @@ namespace DominionEnterprises\Api;
  * @uses \DominionEnterprises\Api\Request
  * @uses \DominionEnterprises\Api\Response
  */
-final class CollectionTest extends \PHPUnit_Framework_TestCase
+final class CollectionTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @test

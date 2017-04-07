@@ -7,7 +7,7 @@ namespace DominionEnterprises\Api;
  *
  * @coversDefaultClass \DominionEnterprises\Api\Response
  */
-final class ResponseTest extends \PHPUnit_Framework_TestCase
+final class ResponseTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @test

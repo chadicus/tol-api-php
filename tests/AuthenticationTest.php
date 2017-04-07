@@ -10,7 +10,7 @@ namespace DominionEnterprises\Api;
  * @uses \DominionEnterprises\Api\Request
  * @uses \DominionEnterprises\Api\Response
  */
-final class AuthenticationTest extends \PHPUnit_Framework_TestCase
+final class AuthenticationTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @test

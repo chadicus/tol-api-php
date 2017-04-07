@@ -18,7 +18,7 @@ use DominionEnterprises\Util\Http;
  * @uses \DominionEnterprises\Api\Request
  * @uses \DominionEnterprises\Api\Response
  */
-final class ClientTest extends \PHPUnit_Framework_TestCase
+final class ClientTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @test
